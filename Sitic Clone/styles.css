@@ -1,0 +1,179 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+    padding: 20px;
+    padding-right: 70px;
+
+}
+
+.container-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quem_somos{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.left{
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding-left: 200px;
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.solucoes{
+    background-color: #00AD18;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.linha-icons-um{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.linha-icons-um h4{
+   text-align: center;
+}
+
+.img-icons{
+    display: grid;
+    padding: 200px;
+    
+}
+
+.text-credencial{
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 200px;
+}
+
+.text-credencial h1{
+    font-size: 100px;
+}
+
+.div-credencias{
+    height: 100%;
+    padding: 50px;
+}
+
+.img-credenciais{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.img-credenciais img{
+    margin: 50px;
+}
+
+.feed-back{
+    display: flex;
+    background-color: rgb(97, 97, 97);
+    justify-content: flex-end;
+    align-items: center;
+    height: 800px;
+}
+
+.text-feed{
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+
+.text-feed h1{
+    font-size: 100px;
+}
+
+.text-feed p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-group{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+.card{
+    margin: 15px;
+}
+
+footer{
+    height: 200px;
+    background: #00AD18;
+}
+
+.blog{
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    justify-items: center;
+    padding: 50px;
+}
+
+.contato{
+    height: 500px;
+    display: flex;
+    padding: 20px;
+}
+
+.input-contato{
+    width: 50%;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+}
+
+.input-contato input{
+    width: 500px;
+    height: 50px;
+    
+    display: grid;
+    padding: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.input-contato label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.img-contato{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-contato img{
+    width: 300px;
+    border-radius: 20px;
+}
